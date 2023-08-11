@@ -15,15 +15,11 @@ body {
 
 /* Inicio do Cabeçalho*/
 .cont-header {
+  
     display: flex;
     align-items: center;
     justify-content: center;
     height: 180px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
     background-color: #fafdfd;
 }
 
@@ -50,7 +46,7 @@ body {
     justify-content: center;
     width: 100%;
     background-color: #aff3ef;
-    margin-top: 200px;
+   
 }
 
 .cont-menu ul {
@@ -308,35 +304,24 @@ body {
 }
 
 #rodape {
-    
     border-top: 1px solid #aff3ef;
     text-align: center;
     margin: 0 auto;
     width: 1080px;
     height: 100px;
-
 }
 .cont-rodape{
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-   
 }
 .cont-rodape img {
-    display: flex;
-
-    padding-top: 20px;
-    width: 50px;
-    margin: 80px;
-
+    width: 30px;
+    margin: 5px;
 }
 #rodape h3{
-  
     margin: 20px;
-    padding: 40px;
-    padding-left: 50px;
 }
 /*------------------------------------------------------------------------------------------------------------------*/
 
